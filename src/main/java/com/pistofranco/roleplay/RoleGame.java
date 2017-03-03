@@ -27,6 +27,10 @@ public class RoleGame extends JavaPlugin {
                 }
             }
         }.runTaskTimer(this,20L,20L);
+        MySQL mySQL = new MySQL();
+        mySQL.getDataSource();
+        mySQL.stabilishConnection();
+        System.out.println("Connection stabilished!");
     }
 
     public void onDisable(){
