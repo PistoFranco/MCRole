@@ -1,0 +1,6 @@
+name: TestMaven
+version: ${project.version}
+main: com.pistofranco.roleplay.RoleGame
+author: PistoFranco
+commands:
+  role:
